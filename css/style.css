@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header{
     display: flex;
     flex-direction: column;
@@ -12,13 +11,13 @@ header{
 .header-nav{
     background-color:#404eed;
     /* debug */
-    min-height: 50px;
+    min-height: 100px;
     border: 2px solid black;
 }
 .header-main{
     background-color: #404eed;
     /* debug */
-    min-height: 300px;
+    min-height: 500px;
 }
 main{
     display: flex;
@@ -27,6 +26,8 @@ main{
 .sezione{
     display: flex;
     /* debug */
+    min-height: 400px;
+
 }
 .foto{
     width: 60%;
@@ -48,8 +49,32 @@ main{
 .sezionegrande{
     display: flex;
     flex-direction: column;
+    /* debug */
 }
 .sezionegrande>section{
     width: 100%;
+    min-height: 600px;
 }
-.
+
+footer{
+    background-color: black;
+    /* debug */
+    min-height: 800px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    border-bottom: 1px solid red;
+    /* debug */
+    min-height: 600px;
+
+}
+.footer-row{
+    align-items: baseline;
+    /* debug */
+    width: 15%;
+    background-color: red;
+    border: 1px solid black;
+}
