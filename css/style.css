@@ -7,17 +7,49 @@
 header{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .header-nav{
     background-color:#404eed;
-    width: 100%;
     /* debug */
     min-height: 50px;
-    border-bottom: 2px solid black;
+    border: 2px solid black;
 }
 .header-main{
     background-color: #404eed;
-    width: 100%;
     /* debug */
     min-height: 300px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
+.sezione{
+    display: flex;
+    /* debug */
+}
+.foto{
+    width: 60%;
+    /* debug */
+    min-height: 200px;
+    border: 1px solid black;
+}
+.testo{
+    width:40%;
+    min-height: 200px;
+}
+.download{
+    min-height: 200px;
+}
+.grigia{
+    background-color: grey;
+    flex-flow: row-reverse;
+}
+.sezionegrande{
+    display: flex;
+    flex-direction: column;
+}
+.sezionegrande>section{
+    width: 100%;
+}
+.
