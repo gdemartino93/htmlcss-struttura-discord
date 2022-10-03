@@ -78,3 +78,11 @@ footer{
     background-color: red;
     border: 1px solid black;
 }
+.footer-infobox{
+    align-items: baseline;
+    /* debug */
+    width: 25%;
+    background-color: red;
+    border: 1px solid black;
+}
+}
